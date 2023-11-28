@@ -41,6 +41,18 @@
 
         <section class="mt-4 text-center">
             <button class="btn btn-warning" onclick="empezarJuego()">Empezar</button>
+
+            <div class="form-floating my-3 d-md-flex justify-content-md-between align-items-center">
+                <input 
+                  type="number"
+                  class="form-control"
+                  id="numUsuario"
+                  minlength="1"
+                  maxlength="10"
+                  placeholder="Ingrese el número">
+                <label for="numUsuario">Ingrese un numero</label>
+                <button type="submit" id="btn-enviar" class="btn btn-secondary mt-2 mt-md-0 ms-md-4 px-4">Enviar</button>
+              </div>
         </section>
       </main>
 
