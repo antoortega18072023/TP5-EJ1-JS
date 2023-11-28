@@ -11,9 +11,9 @@ const empezarJuego = () =>{
 const coincidenNumeros = () =>{
     let numUsuario = document.getElementById('numUsuario')
     if(numAleatorio > numUsuario.value){
-      alert('El número al azar es mayor al que usted ingresó');
+      alert('El número es mas alto');
     } else if(numAleatorio < numUsuario.value){
-      alert('El número al azar es menor al que usted ingresó');
+      alert('El número es mas chico');
     } else{
       alert('Bien Hecho!!! Acertaste el numero secreto');
     }
